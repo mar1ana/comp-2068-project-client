@@ -22,6 +22,15 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "overrides": [
+      {"files": [
+        "src/components/shared/Header/styles.jsx"
+      ],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
+      }
+    }
+    ],  
     "extends": [
       "react-app",
       "react-app/jest"

@@ -26,7 +26,7 @@ const Delete = () => {
           });
           setRedirect(true);
     }).catch((err)=>console.log(err.message))    
-  }, [globalStore, id, setNotification]);
+  }, [globalStore, id, setNotification, user]);
 
  return (
     redirect ? (
