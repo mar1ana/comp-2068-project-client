@@ -1,0 +1,11 @@
+
+.center {
+    min-height: 10em;
+    display: table-cell;
+    overflow: auto;
+    }
+  
+
+  .color {
+      color:rgb(255, 255, 255);
+  }
